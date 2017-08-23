@@ -1,2 +1,0 @@
-# NotificationTest
-Just a testing
