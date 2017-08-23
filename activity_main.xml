@@ -94,4 +94,41 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/textView5" />
 
+    <CheckBox
+        android:id="@+id/checkBoxStartIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StartActivity2"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/viewChoice"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAutoCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto Cancel"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxStartIntent"
+        android:layout_marginStart="4dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBoxStartIntent"
+        android:layout_marginLeft="4dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxModifyNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modification"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxAutoCancel"
+        android:layout_marginStart="3dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBoxStartIntent"
+        android:layout_marginLeft="3dp" />
+
 </android.support.constraint.ConstraintLayout>
