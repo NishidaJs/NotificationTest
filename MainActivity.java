@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox startIntent, autoCancel, modifyNotification;
     int messageNo;
 
+    //关于SecondActivity，随便Create一个就可以了。
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
